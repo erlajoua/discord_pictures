@@ -1,6 +1,18 @@
 {
     "name": "Discord Pictures",
     "description": "Copy the pictures of a website to send it on Discord!",
-    "version": "1.0",
-    "manifest_version": 3
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting",
+        "tabs"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ]
 }
